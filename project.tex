@@ -65,12 +65,12 @@ f(x) = \sum_{i=0}^{\infty} \frac{f^{(i)}(0)}{i!}x^{i} \\
             0 & 0 & 1 & 0\\
             0 & 0 & 0 & 1
         \end{Bmatrix}, \hspace{0.5cm}
-    \textbf{I} = \begin{Bmatrix}
+    \textbf{I} = \begin{vmatrix}
             1 & 0 & 0 & 0\\
             0 & 1 & 0 & 0\\
             0 & 0 & 1 & 0\\
             0 & 0 & 0 & 1
-        \end{Bmatrix}, \hspace{0.5cm}
+        \end{vmatrix}, \hspace{0.5cm}
     \textbf{I} = \begin{Vmatrix}
             1 & 0 & 0 & 0\\
             0 & 1 & 0 & 0\\
@@ -163,14 +163,8 @@ f(x) = \sum_{i=0}^{\infty} \frac{f^{(i)}(0)}{i!}x^{i} \\
 \end{itemize}
 
 \section{Έκτη Άσκηση}
-
-\begin{tikzpicture}
-  \begin{axis}[
-    xlabel=$x$,
-    ylabel=$\cos(x)$
-  ]
-    \addplot gnuplot[id=cos]{cos(x)}; 
-  \end{axis}
-\end{tikzpicture}
-
+\begin{center}
+\includegraphics[width=10cm, height=7cm]{cos chart.png} \\
+\includegraphics[width=10cm, height=7cm]{cos and sin chart.png}
+\end{center}
 \end{document}
