@@ -1,7 +1,9 @@
 import math
 import numpy as np
 import matplotlib.pyplot as plt 
- 
+
+
+
 in_array_cos = np.linspace(-(np.pi), np.pi, 20) #the range of θ is(-π,π)
 out_array_cos = []
 #creating the points for the cos chart
@@ -22,11 +24,12 @@ print("in_array : ", in_array_cos)
 print("\nout_array : ", out_array_cos)
   
 # creating the charts
-plt.plot(in_array_cos, out_array_cos, color = 'blue', marker = "o") 
-plt.plot(in_array_sin, out_array_sin, color = 'green', marker = "o")
+plt.plot(in_array_cos, out_array_cos, color = 'blue', marker = "o", label = "cos(θ)") 
+plt.plot(in_array_sin, out_array_sin, color = 'green', marker = "o", label = "sin(θ)")
 
 plt.title("Plot of cos(θ) and sin(θ)") 
 plt.xlabel("θ") 
 plt.ylabel("cos(θ) and sin(θ)") 
+plt.legend()
 
 plt.show()
