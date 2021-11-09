@@ -20,8 +20,11 @@ for i in range(len(in_array_cos)):
     i += 1
   
    
-print("in_array : ", in_array_cos)
-print("\nout_array : ", out_array_cos)
+print("in_array_cos : ", in_array_cos)
+print("\nout_array_cos : ", out_array_cos)
+
+print("in_array_sin : ", in_array_sin)
+print("\nout_array_sin : ", out_array_sin)
   
 # creating the charts
 plt.plot(in_array_cos, out_array_cos, color = 'blue', marker = "o", label = "cos(θ)") 
