@@ -5,7 +5,8 @@
 \usepackage{graphicx}
 \usepackage[shortlabels]{enumitem}
 \usepackage{pgfplots}
-\graphicspath{ {./images/} }
+\graphicspath{ {./images/} } % ο φάκελος που έχω τις εικόνες για τα γραφήματα
+\pgfplotsset{compat=1.18} % για κάποιο λόγο είχα ένα warning και το overleaf πρότεινε να προσθέσω αυτό
 
 \newcommand{\lt}{\latintext}
 \newcommand{\gt}{\greektext}
@@ -22,12 +23,16 @@
 
 \section{Πρώτη Άσκηση}
 
+\begin{center}
 {\tiny Α}{\scriptsize Β}{\footnotesize Γ}{\small Δ}{\normalsize Ε}{\large Ζ}{\Large Η}{\LARGE Θ}{\huge Ι}{\Huge κ}{\huge λ}{\LARGE μ}{\Large ν}{\large ξ}{\normalsize ο}{\small π}{\footnotesize ρ}{\scriptsize σ}
+\end{center}
 
 \section{Δεύτερη Άσκηση}
 
+\begin{center}
 \lt Normal \textit {Italics} \textbf {Bold} \\
 \emph {Emphasized} \underline {Underlined} \gt
+\end{center}
 
 \section{Τρίτη Άσκηση}
 
@@ -165,7 +170,7 @@ f(x) = \sum_{i=0}^{\infty} \frac{f^{(i)}(0)}{i!}x^{i} \\
 
 \section{Έκτη Άσκηση}
 \begin{center}
-\includegraphics[width=10cm, height=7cm]{cos graph.png} \\
-\includegraphics[width=10cm, height=7cm]{cos and sin graph.png}
+\includegraphics[width=10cm, height=8cm]{cos graph.png} \\
+\includegraphics[width=10cm, height=8cm]{cos and sin graph.png}
 \end{center}
 \end{document}
